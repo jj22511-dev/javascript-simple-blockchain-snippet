@@ -1,6 +1,7 @@
-# javascript-simple-blockchain-snippet
+```bash
+cd /{folder}
+```
 
 ```bash
-cd /{directory}
 node blockChain.js
 ```
