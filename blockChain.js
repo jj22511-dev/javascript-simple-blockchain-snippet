@@ -17,7 +17,13 @@ class Block {
 
 class BlockChain {
     constructor() {
-        this.chain = [ new Block(Date.now().toString(), []) ] // initialize first block
+        this.chain = [ 
+            this.createGenesisBlock()
+        ]
+    }
+
+    createGenesisBlock() {
+        return new Block(Date.now().toString(), [])
     }
 
     getLastBlock() {
